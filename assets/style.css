@@ -10,24 +10,88 @@ html {
 body {
   padding: 4% 3%;
   font-family: 'Argesta Text', serif;
-  color: #121212;
+  color: #242020;
   max-width: 50rem;
   font-weight: 300;
   margin: 0 auto;
 }
 
-h1 {
+strong {
+  font-weight: 700;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Argesta Headline', serif;
   text-align: center;
   font-weight: 400;
-  font-size: 4rem;
   line-height: 1.2;
 }
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+}
 p {
-  /* max-width: 95%; */
+  max-width: 50rem;
   margin: 0 auto 1.5rem;
 }
+ul,
+ol {
+  max-width: 40rem;
+  margin: 0 auto 1.5rem 3rem;
+}
+a {
+  color: #ff5e37;
+}
 
-article {
+a.goHome {
+  font-size: 0.8rem;
+}
+article,
+footer {
   margin-top: 2rem;
+}
+
+article.toc {
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+article.toc ol > li {
+  margin-bottom: 0.5rem;
+}
+figure {
+  margin: 0 auto;
+  max-width: 60rem;
+}
+
+img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+img.small {
+  width: 50%;
+}
+
+figcaption {
+  font-style: italic;
+  color: #636363;
+  font-size: 0.9rem;
+  font-weight: 300;
+  /* max-width: 30rem; */
+  margin: 0 auto 1.5rem 0;
+}
+
+div.footer-border {
+  height: 1px;
+  background: #ff5e37;
+  opacity: 0.5;
+  width: 100%;
+  margin: 1rem auto 0.8rem;
 }
