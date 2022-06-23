@@ -25,7 +25,7 @@ h1 {
 }
 p {
   /* max-width: 95%; */
-  margin: 0 auto;
+  margin: 0 auto 1.5rem;
 }
 
 article {
